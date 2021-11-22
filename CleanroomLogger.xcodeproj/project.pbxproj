@@ -126,6 +126,7 @@
 		3B90592C1DAECD9800B4EEC0 /* Info-Tests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Tests.plist"; sourceTree = "<group>"; };
 		3BDB181F1F15B19900803117 /* Info-Target.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Target.plist"; sourceTree = "<group>"; };
 		3BDB18201F15B1C200803117 /* Target.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Target.xcconfig; sourceTree = "<group>"; };
+		85894CB7274BDFB000C7ED60 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +213,7 @@
 		3B9058F91DAECB5200B4EEC0 = {
 			isa = PBXGroup;
 			children = (
+				85894CB7274BDFB000C7ED60 /* Package.swift */,
 				3B475CFE1DB47B8A0047D397 /* Sources */,
 				3B90591D1DAECB9E00B4EEC0 /* BuildControl */,
 				3B475D4D1DB47BD50047D397 /* Tests */,
