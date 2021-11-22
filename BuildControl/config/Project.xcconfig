@@ -5,7 +5,7 @@ TARGETED_DEVICE_FAMILY = 1,2,3,4
 //
 // iOS-specific settings
 //
-IPHONEOS_DEPLOYMENT_TARGET = 8.0
+IPHONEOS_DEPLOYMENT_TARGET = 13.0
 
 VALID_ARCHS[sdk=iphoneos*] = arm64 armv7 armv7s
 VALID_ARCHS[sdk=iphonesimulator*] = i386 x86_64
@@ -19,7 +19,7 @@ ENABLE_BITCODE[sdk=iphone*] = YES
 //
 // macOS-specific settings
 //
-MACOSX_DEPLOYMENT_TARGET = 10.9
+MACOSX_DEPLOYMENT_TARGET = 10.15
 
 VALID_ARCHS[sdk=macosx*] = i386 x86_64
 
@@ -31,7 +31,7 @@ ENABLE_BITCODE[sdk=macosx*] = NO
 //
 // tvOS-specific settings
 //
-TVOS_DEPLOYMENT_TARGET = 9.0
+TVOS_DEPLOYMENT_TARGET = 13.0
 
 VALID_ARCHS[sdk=appletvos*] = arm64
 VALID_ARCHS[sdk=appletvsimulator*] = x86_64
@@ -45,9 +45,9 @@ ENABLE_BITCODE[sdk=appletv*] = YES
 //
 // watchOS-specific settings
 //
-WATCHOS_DEPLOYMENT_TARGET = 2.0
+WATCHOS_DEPLOYMENT_TARGET = 3.0
 
-VALID_ARCHS[sdk=watchos*] = armv7k
+VALID_ARCHS[sdk=watchos*] = arm64_32 armv7k
 VALID_ARCHS[sdk=watchsimulator*] = i386
 
 LD_RUNPATH_SEARCH_PATHS[sdk=watchos*] =  @executable_path/Frameworks @loader_path/Frameworks

@@ -10,7 +10,7 @@
  In case the name didn't give it away, the `BasicLogConfiguration` class 
  provides a basic implementation of the `LogConfiguration` protocol.
  */
-open class BasicLogConfiguration: LogConfiguration
+public class BasicLogConfiguration: LogConfiguration
 {
     /** The minimum `LogSeverity` supported by the configuration. */
     public let minimumSeverity: LogSeverity
